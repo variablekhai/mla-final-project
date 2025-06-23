@@ -21,7 +21,7 @@ state = st.selectbox("Select State", options=[
 registration_date = st.date_input("Registration Date", value=date.today())
 
 # Prediction trigger
-if st.button("Predict Traffic Pressure"):
+if st.button("Predict Traffic Pressure 🔍"):
     # Prepare input
     input_data = pd.DataFrame({
         'type': [vehicle_type],
