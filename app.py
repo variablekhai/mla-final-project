@@ -3,6 +3,7 @@ import joblib
 import pandas as pd
 from datetime import date
 
+# This is a simple Streamlit app for predicting traffic pressure based on vehicle attributes.
 # Load model and encoders
 model = joblib.load('xgboost_model.pkl')
 label_encoders = joblib.load('label_encoders.pkl')  # This must match your training encoders
